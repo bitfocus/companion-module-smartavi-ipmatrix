@@ -1,0 +1,26 @@
+{
+	"id": "smartavi-ipmatrix",
+	"name": "smartavi-ipmatrix",
+	"shortname": "matrix",
+	"description": "Control matrix by Smart-AVI",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-smartavi-ipmatrix.git",
+	"bugs": "https://github.com/bitfocus/companion-module-smartavi-ipmatrix/issues",
+	"maintainers": [
+		{
+			"name": "Dorian Meid",
+			"email": "meid@backstage.org"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../index.js"
+	},
+	"manufacturer": "Smart-AVI",
+	"products": ["MU-88", "MXU-88", "MXCORE"],
+	"keywords": ["Protocol", "Matrix"]
+}
